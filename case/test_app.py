@@ -3,7 +3,7 @@ import unittest
 
 class TestWeb(unittest.TestCase):
     def setUp(self):
-        print("打开浏览器")
+        print("打开浏览器!")
 
     def test_login_app(self):
         """app端用户登录"""
